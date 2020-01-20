@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^orm\.txt$ orm.txt.php
+
