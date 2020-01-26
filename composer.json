@@ -1,0 +1,27 @@
+{
+    "name": "lemathou/worm",
+    "type": "library",
+    "description": "WORM is an Objet Relationnal Mapping (ORM) for the Web, writtetn in PHP 7.3+",
+    "keywords": [
+        "ORM",
+        "persistence",
+        "Active Record"
+    ],
+    "homepage": "https://sourceforge.net/projects/worm-web-orm/",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "leMathou",
+            "email": "lemathou@free.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+    },
+    "require-dev": {}
+    "autoload": {
+        "psr-0": {
+            "Worm": "src/"
+        }
+    }
+}
